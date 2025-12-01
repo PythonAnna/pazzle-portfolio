@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Anna\\Anna\\\u041A\u043E\u0434\\pazzle-portfolio\\course-1\\homeworks\\Homework1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3078DF3B-2BA1-4AE3-A9FD-84058D321773}|Homework1\\Homework1.csproj|d:\\anna\\anna\\\u043A\u043E\u0434\\pazzle-portfolio\\course-1\\homeworks\\homework1\\homework1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3078DF3B-2BA1-4AE3-A9FD-84058D321773}|Homework1\\Homework1.csproj|solutionrelative:homework1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Anna\\Anna\\\u041A\u043E\u0434\\pazzle-portfolio\\course-1\\homeworks\\Homework1\\Homework1\\Program.cs",
+              "RelativeDocumentMoniker": "Homework1\\Program.cs",
+              "ToolTip": "D:\\Anna\\Anna\\\u041A\u043E\u0434\\pazzle-portfolio\\course-1\\homeworks\\Homework1\\Homework1\\Program.cs",
+              "RelativeToolTip": "Homework1\\Program.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T17:26:52.862Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
