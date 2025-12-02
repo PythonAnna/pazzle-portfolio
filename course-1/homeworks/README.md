@@ -1,3 +1,3 @@
-#📚 Домашние задания
+# 📚 Домашние задания
 
--[Домашнее задание 1](./Homework1/Homework1/Program.cs)
+- [Домашнее задание 1](./Homework1/Homework1/Program.cs)
