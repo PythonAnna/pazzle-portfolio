@@ -9,3 +9,4 @@
 - [Практика 13](./Practice13/Practice13/Program.cs)
 - [Практика 14](./Practice14/Practice14/Program.cs)
 - [Практика 15](./Practic15/Practic15)
+- [Практика 17](./Practice17/Practice17/Program.cs)
