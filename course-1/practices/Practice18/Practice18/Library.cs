@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 public class Library : ILibraryManagement
 {
@@ -9,6 +10,7 @@ public class Library : ILibraryManagement
         _books.Add(book);
         Console.WriteLine($"Книга \"{book.Title}\" добавлена в библиотеку.");
     }
+
 
     public bool RemoveBook(Book book)
     {
@@ -49,5 +51,21 @@ public class Library : ILibraryManagement
     {
         _books.Add(book);
         Console.WriteLine($"Книга \"{book.Title}\" возвращена в библиотеку.");
+    }
+
+    public List<Reservation> _reservations = new List<Reservation>();
+
+    public void NewReservation(Reservation reservation)
+    {
+        _reservations.Add(reservation);
+        Console.WriteLine($"Книга \"{reservation.ReservationBook.Title}\" зарезервирована {reservation.ReservationDate} на {reservation.Period} дней");
+    }
+
+    public void CancelReservation(Reservation reservation)
+    {
+        bool cancel = _reservations.Remove(reservation);
+        if (cancel)
+            Console.WriteLine($"Резервирование книги \"{reservation.ReservationBook.Title}\" отменено.");
+        Console.WriteLine("Книга не была зарезервирована");
     }
 }

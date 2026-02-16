@@ -5,6 +5,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{DF2107E7-85F3-4486-9CA9-2D7B569E584B}|Practice18\\Practice18.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\practice18\\practice18\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF2107E7-85F3-4486-9CA9-2D7B569E584B}|Practice18\\Practice18.csproj|solutionrelative:practice18\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF2107E7-85F3-4486-9CA9-2D7B569E584B}|Practice18\\Practice18.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\practice18\\practice18\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF2107E7-85F3-4486-9CA9-2D7B569E584B}|Practice18\\Practice18.csproj|solutionrelative:practice18\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF2107E7-85F3-4486-9CA9-2D7B569E584B}|Practice18\\Practice18.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\practice18\\practice18\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF2107E7-85F3-4486-9CA9-2D7B569E584B}|Practice18\\Practice18.csproj|solutionrelative:practice18\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF2107E7-85F3-4486-9CA9-2D7B569E584B}|Practice18\\Practice18.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\practice18\\practice18\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF2107E7-85F3-4486-9CA9-2D7B569E584B}|Practice18\\Practice18.csproj|solutionrelative:practice18\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF2107E7-85F3-4486-9CA9-2D7B569E584B}|Practice18\\Practice18.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\practice18\\practice18\\reader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF2107E7-85F3-4486-9CA9-2D7B569E584B}|Practice18\\Practice18.csproj|solutionrelative:practice18\\reader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +30,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Reader.cs",
+              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\Practice18\\Practice18\\Reader.cs",
+              "RelativeDocumentMoniker": "Practice18\\Reader.cs",
+              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\Practice18\\Practice18\\Reader.cs",
+              "RelativeToolTip": "Practice18\\Reader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T10:53:49.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Library.cs",
+              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\Practice18\\Practice18\\Library.cs",
+              "RelativeDocumentMoniker": "Practice18\\Library.cs",
+              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\Practice18\\Practice18\\Library.cs",
+              "RelativeToolTip": "Practice18\\Library.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAmwD4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T16:28:49.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\Practice18\\Practice18\\Reservation.cs",
+              "RelativeDocumentMoniker": "Practice18\\Reservation.cs",
+              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\Practice18\\Practice18\\Reservation.cs",
+              "RelativeToolTip": "Practice18\\Reservation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T16:33:22.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\Practice18\\Practice18\\Book.cs",
+              "RelativeDocumentMoniker": "Practice18\\Book.cs",
+              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\Practice18\\Practice18\\Book.cs",
+              "RelativeToolTip": "Practice18\\Book.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwDEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T10:31:42.466Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +92,7 @@
               "RelativeDocumentMoniker": "Practice18\\Program.cs",
               "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\Practice18\\Practice18\\Program.cs",
               "RelativeToolTip": "Practice18\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCEAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-26T16:07:41.357Z",
               "EditorCaption": ""

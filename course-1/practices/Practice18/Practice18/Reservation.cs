@@ -2,12 +2,14 @@
 
 public class Reservation
 {
-	public Book book { get; set; }
+	public Book ReservationBook { get; set; }
 	public DateTime ReservationDate { get; set; }
-	public DateTime Validity_period { get; set; }
+	public int Period { get; set; }
 
-	public Reservation()
+	public Reservation(Book book, DateTime reservationdate, int period)
 	{
-
+		ReservationBook = book;
+        ReservationDate = reservationdate;
+		Period = period;
 	}
 }
