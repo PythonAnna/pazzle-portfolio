@@ -4,13 +4,13 @@ using Telegram.Bot.Types;
 
 namespace Practice23.Commands;
 
-public class WeekCommand : ICommand
+public class HomeworkCommand : ICommand
 {
-    protected readonly IScheduleRepository _scheduleRepository;
+    protected readonly IHomeworkRepository _homeworkRepository;
 
-    public WeekCommand(IScheduleRepository scheduleRepository)
+    public HomeworkCommand(IHomeworkRepository homeworkRepository)
     {
-        _scheduleRepository = scheduleRepository;
+        _homeworkRepository = homeworkRepository;
     }
 
 
@@ -19,28 +19,27 @@ public class WeekCommand : ICommand
         var chatId = update.Message!.Chat.Id;
         var text = update.Message!.Text ?? string.Empty;
 
-        // ожидаем формат: /week 9A
         var parts = text.Split(' ', 2, StringSplitOptions.RemoveEmptyEntries);
         if (parts.Length < 2)
         {
             await botClient.SendTextMessageAsync(
                 chatId,
-                "Использование: /week [группа]\nНапример: /week ПР-2-А",
+                "Использование: /homework [группа]\nНапример: /homework ПР-2-А",
                 cancellationToken: ct);
             return;
         }
 
         var groupName = parts[1].Trim();
 
-        var schedule = _scheduleRepository.Load();
-        var group = schedule.Groups
+        var homework = _homeworkRepository.Load();
+        var group = homework.Groups
             .FirstOrDefault(g => string.Equals(g.Group, groupName, StringComparison.OrdinalIgnoreCase));
 
         if (group == null)
         {
             await botClient.SendTextMessageAsync(
                 chatId,
-                $"Для группы {groupName} нет расписания.",
+                $"Для группы {groupName} нет домашнего задания.",
                 cancellationToken: ct);
             return;
         }
@@ -50,15 +49,15 @@ public class WeekCommand : ICommand
         foreach (var day in group.Days)
         {
             lines.Add($"\n{day.Day}:");
-            if (day.Lessons == null || day.Lessons.Count == 0)
+            if (day.Homework == null || day.Homework.Count == 0)
             {
                 lines.Add("  нет уроков");
             }
             else
             {
                 lines.AddRange(
-                    day.Lessons.Select(
-                        (l, i) => $"  {i + 1}. {l.Time} -- {l.Subject} {(string.IsNullOrEmpty(l.Teacher) ? "" : "(" + l.Teacher + ")")}"
+                    day.Homework.Select(
+                        (l, i) => $"  {i + 1}. {l.Work} -- {l.Subject} {(string.IsNullOrEmpty(l.Teacher) ? "" : "(" + l.Teacher + ")")}"
                     )
                 );
             }
@@ -67,5 +66,3 @@ public class WeekCommand : ICommand
         await botClient.SendTextMessageAsync(chatId, string.Join('\n', lines), cancellationToken: ct);
     }
 }
-
-
