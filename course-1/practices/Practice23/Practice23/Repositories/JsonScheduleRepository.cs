@@ -25,7 +25,7 @@ public class JsonScheduleRepository : IScheduleRepository
                            new DaySchedule { Day = "Tuesday", Lessons = new List<Lesson> { new Lesson("09:45", "Высшая математика", "Kotova") } },
                            new DaySchedule { Day = "Wednesday", Lessons = new List<Lesson> { new Lesson("09:45", "Иностранный язык", "Petrov") } },
                            new DaySchedule { Day = "Thursday", Lessons = new List<Lesson> { new Lesson("09:45", "МДК 02.02.", "Ivanov") } },
-                           new DaySchedule { Day = "Fridey", Lessons = new List<Lesson> { new Lesson("08:00", "Численные методы", "Kotova") } },
+                           new DaySchedule { Day = "Friday", Lessons = new List<Lesson> { new Lesson("08:00", "Численные методы", "Kotova") } },
                            new DaySchedule { Day = "Saturday", Lessons = new List<Lesson> { new Lesson("13:25", "МДК 02.03.", "Umnova") } }
                        }
                    }

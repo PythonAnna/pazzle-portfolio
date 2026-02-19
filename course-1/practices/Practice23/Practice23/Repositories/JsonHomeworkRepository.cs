@@ -27,7 +27,7 @@ namespace Practice23.Repositories
                             {
                                 new DayHomework {Day = "Tuesday", Homework = new List<Homework>{new Homework("Закрепить тему \"Двойные интегралы\"", "Высшая математика", "Kotova")} },
                                 new DayHomework {Day = "Wednesday", Homework = new List<Homework>{new Homework("Выучить новые слова, перевести текст", "Иностранный язык", "Petrov")} },
-                                new DayHomework {Day = "Fridey", Homework = new List<Homework>{new Homework("Подготовиться к контрольной работе", "МДК 02.03.", "Umnova")} }
+                                new DayHomework {Day = "Friday", Homework = new List<Homework>{new Homework("Подготовиться к контрольной работе", "МДК 02.03.", "Umnova")} }
                             }
                         }
                     }

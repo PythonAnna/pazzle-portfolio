@@ -6,8 +6,8 @@ using Telegram.Bot.Types.Enums;
 
 class Program
 {
-    private const string ScheduleJson = "schedule1.json";
-    private const string HomeworkJson = "homework.json";
+    private const string ScheduleJson = "schedule2.json";
+    private const string HomeworkJson = "homework1.json";
     public static async Task Main()
     {
         Console.WriteLine("Запуск бота...");

@@ -44,7 +44,7 @@ public class HomeworkCommand : ICommand
             return;
         }
 
-        var lines = new List<string> { $"Полное расписание для {groupName}:" };
+        var lines = new List<string> { $"Добашнее задание для {groupName}:" };
 
         foreach (var day in group.Days)
         {
