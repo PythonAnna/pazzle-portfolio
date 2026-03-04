@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\PracticeAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1976FF-F47F-1472-7A0E-027E88B75CE9}|PracticeAPI\\PracticeAPI.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\practiceapi\\practiceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B1976FF-F47F-1472-7A0E-027E88B75CE9}|PracticeAPI\\PracticeAPI.csproj|solutionrelative:practiceapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69A397D7-23FD-422E-86B0-9D52E05A194F}|PracticeAPI.AppHost\\PracticeAPI.AppHost.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\practiceapi\\practiceapi.apphost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69A397D7-23FD-422E-86B0-9D52E05A194F}|PracticeAPI.AppHost\\PracticeAPI.AppHost.csproj|solutionrelative:practiceapi.apphost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}|Commands{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}|C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\PracticeAPI\\CommandDispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}|Commands{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}|solutionrelative:CommandDispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}|Commands{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}|C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\PracticeAPI\\StartCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}|Commands{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}|solutionrelative:StartCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}|Commands{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}|C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\PracticeAPI\\ICommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}|Commands{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}|solutionrelative:ICommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}|Commands{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}|C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\PracticeAPI\\HelpCommand.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}|Commands{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}|solutionrelative:HelpCommand.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E07D315F-83F2-D69A-77AA-CCC6D4D0D6CA}|PracticeAPI.ServiceDefaults\\PracticeAPI.ServiceDefaults.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\practiceapi\\practiceapi.servicedefaults\\practiceapi.servicedefaults.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E07D315F-83F2-D69A-77AA-CCC6D4D0D6CA}|PracticeAPI.ServiceDefaults\\PracticeAPI.ServiceDefaults.csproj|solutionrelative:practiceapi.servicedefaults\\practiceapi.servicedefaults.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PracticeAPI.ServiceDefaults.csproj",
+              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\PracticeAPI\\PracticeAPI.ServiceDefaults\\PracticeAPI.ServiceDefaults.csproj",
+              "RelativeDocumentMoniker": "PracticeAPI.ServiceDefaults\\PracticeAPI.ServiceDefaults.csproj",
+              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\PracticeAPI\\PracticeAPI.ServiceDefaults\\PracticeAPI.ServiceDefaults.csproj",
+              "RelativeToolTip": "PracticeAPI.ServiceDefaults\\PracticeAPI.ServiceDefaults.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-01T19:00:15.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StartCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\PracticeAPI\\StartCommand.cs",
+              "RelativeDocumentMoniker": "StartCommand.cs",
+              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\PracticeAPI\\StartCommand.cs",
+              "RelativeToolTip": "StartCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T18:53:13.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ICommand.cs",
+              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\PracticeAPI\\ICommand.cs",
+              "RelativeDocumentMoniker": "ICommand.cs",
+              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\PracticeAPI\\ICommand.cs",
+              "RelativeToolTip": "ICommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T18:52:59.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HelpCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\PracticeAPI\\HelpCommand.cs",
+              "RelativeDocumentMoniker": "HelpCommand.cs",
+              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\PracticeAPI\\HelpCommand.cs",
+              "RelativeToolTip": "HelpCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T18:52:35.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CommandDispatcher.cs",
+              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\PracticeAPI\\CommandDispatcher.cs",
+              "RelativeDocumentMoniker": "CommandDispatcher.cs",
+              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\PracticeAPI\\CommandDispatcher.cs",
+              "RelativeToolTip": "CommandDispatcher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T18:52:20.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\PracticeAPI\\PracticeAPI\\Program.cs",
+              "RelativeDocumentMoniker": "PracticeAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\PracticeAPI\\PracticeAPI\\Program.cs",
+              "RelativeToolTip": "PracticeAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T17:42:12.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\PracticeAPI\\PracticeAPI.AppHost\\Program.cs",
+              "RelativeDocumentMoniker": "PracticeAPI.AppHost\\Program.cs",
+              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\PracticeAPI\\PracticeAPI.AppHost\\Program.cs",
+              "RelativeToolTip": "PracticeAPI.AppHost\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T17:42:04.456Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
