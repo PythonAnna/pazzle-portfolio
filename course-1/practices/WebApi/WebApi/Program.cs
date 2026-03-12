@@ -28,3 +28,5 @@ app.UseSwagger();
 
 var telegramToken = "7942247996:AAHPB9PD-u-yDbHyKmyhhu4FNpHqCkEzFyI";
 builder.Services.AddSingleton<ITelegramBotClient>(sp => new TelegramBotClient(telegramToken));
+
+builder.Services.AddControllers().AddNewtonsoftJson();

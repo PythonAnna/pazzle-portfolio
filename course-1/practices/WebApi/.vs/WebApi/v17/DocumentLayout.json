@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\webapi\\webapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\webapi\\webapi\\dtos\\telegrammessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|solutionrelative:webapi\\dtos\\telegrammessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\webapi\\webapi\\dtos\\telegramupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|solutionrelative:webapi\\dtos\\telegramupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\webapi\\webapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|solutionrelative:webapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\webapi\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\webapi\\webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|solutionrelative:webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,36 +38,88 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "TelegramUpdate.cs",
+              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Dtos\\TelegramUpdate.cs",
+              "RelativeDocumentMoniker": "WebApi\\Dtos\\TelegramUpdate.cs",
+              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Dtos\\TelegramUpdate.cs",
+              "RelativeToolTip": "WebApi\\Dtos\\TelegramUpdate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T04:46:13.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\appsettings.json",
+              "RelativeToolTip": "WebApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-11T04:45:20.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TelegramMessage.cs",
+              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Dtos\\TelegramMessage.cs",
+              "RelativeDocumentMoniker": "WebApi\\Dtos\\TelegramMessage.cs",
+              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Dtos\\TelegramMessage.cs",
+              "RelativeToolTip": "WebApi\\Dtos\\TelegramMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T04:45:17.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "WebApi\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "WebApi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAB4AAAAAAAAAAADwvykAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-05T16:44:36.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\WeatherForecastController.cs",
               "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "WebApi\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-02T16:37:33.934Z"
+              "WhenOpened": "2026-03-02T16:37:33.934Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Program.cs",
               "RelativeDocumentMoniker": "WebApi\\Program.cs",
               "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Program.cs",
               "RelativeToolTip": "WebApi\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABwAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-02T16:33:02.065Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "WebApi\\WeatherForecast.cs",
@@ -59,7 +127,8 @@
               "RelativeToolTip": "WebApi\\WeatherForecast.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-02T16:33:04.171Z"
+              "WhenOpened": "2026-03-02T16:33:04.171Z",
+              "EditorCaption": ""
             }
           ]
         }
