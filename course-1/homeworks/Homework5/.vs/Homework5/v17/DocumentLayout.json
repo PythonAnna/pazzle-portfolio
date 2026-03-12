@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\homeworks\\Homework5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}|\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u04301{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}|C:\\Users\\Anna\\pazzle-portfolio\\course-1\\homeworks\\Homework5\\CustomerPublicDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}|\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u04301{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}|solutionrelative:CustomerPublicDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}|\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u04301{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}|C:\\Users\\Anna\\pazzle-portfolio\\course-1\\homeworks\\Homework5\\CustomerProfileDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}|\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u04301{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}|solutionrelative:CustomerProfileDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}|\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u04301{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}|C:\\Users\\Anna\\pazzle-portfolio\\course-1\\homeworks\\Homework5\\RegisterCustomerDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}|\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u04301{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}|solutionrelative:RegisterCustomerDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E50D7A78-F669-4D10-A360-A944288657ED}|Homework5\\Homework5.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\homeworks\\homework5\\homework5\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E50D7A78-F669-4D10-A360-A944288657ED}|Homework5\\Homework5.csproj|solutionrelative:homework5\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerPublicDto.cs",
+              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\homeworks\\Homework5\\CustomerPublicDto.cs",
+              "RelativeDocumentMoniker": "CustomerPublicDto.cs",
+              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\homeworks\\Homework5\\CustomerPublicDto.cs",
+              "RelativeToolTip": "CustomerPublicDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T15:51:25.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerProfileDto.cs",
+              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\homeworks\\Homework5\\CustomerProfileDto.cs",
+              "RelativeDocumentMoniker": "CustomerProfileDto.cs",
+              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\homeworks\\Homework5\\CustomerProfileDto.cs",
+              "RelativeToolTip": "CustomerProfileDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T15:51:07.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegisterCustomerDto.cs",
+              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\homeworks\\Homework5\\RegisterCustomerDto.cs",
+              "RelativeDocumentMoniker": "RegisterCustomerDto.cs",
+              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\homeworks\\Homework5\\RegisterCustomerDto.cs",
+              "RelativeToolTip": "RegisterCustomerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T15:49:46.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\homeworks\\Homework5\\Homework5\\Customer.cs",
+              "RelativeDocumentMoniker": "Homework5\\Customer.cs",
+              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\homeworks\\Homework5\\Homework5\\Customer.cs",
+              "RelativeToolTip": "Homework5\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T15:44:09.311Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
