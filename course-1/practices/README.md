@@ -15,4 +15,4 @@
 - [Практика 19](./Practice19/Practice19/Program.cs)
 - [Практика 21](./Practice21/Practice21)
 - [Чат-бот](./Practice23/Practice23)
-- [Итоговый проект](./WebApi/WebApi.sln)
+- [Итоговый проект](./WebApi/WebApi)
