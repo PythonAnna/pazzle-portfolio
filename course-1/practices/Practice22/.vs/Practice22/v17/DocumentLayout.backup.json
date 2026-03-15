@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{6581EC6C-B092-4A41-9059-07A4F85CC4D0}|Practice22\\Practice22.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\practice22\\practice22\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6581EC6C-B092-4A41-9059-07A4F85CC4D0}|Practice22\\Practice22.csproj|solutionrelative:practice22\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6581EC6C-B092-4A41-9059-07A4F85CC4D0}|Practice22\\Practice22.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\practice22\\practice22\\dates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6581EC6C-B092-4A41-9059-07A4F85CC4D0}|Practice22\\Practice22.csproj|solutionrelative:practice22\\dates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6581EC6C-B092-4A41-9059-07A4F85CC4D0}|Practice22\\Practice22.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\practice22\\practice22\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6581EC6C-B092-4A41-9059-07A4F85CC4D0}|Practice22\\Practice22.csproj|solutionrelative:practice22\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dates.cs",
+              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\Practice22\\Practice22\\Dates.cs",
+              "RelativeDocumentMoniker": "Practice22\\Dates.cs",
+              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\Practice22\\Practice22\\Dates.cs",
+              "RelativeToolTip": "Practice22\\Dates.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T05:33:18.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\Practice22\\Practice22\\Student.cs",
+              "RelativeDocumentMoniker": "Practice22\\Student.cs",
+              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\Practice22\\Practice22\\Student.cs",
+              "RelativeToolTip": "Practice22\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T05:10:02.114Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\Practice22\\Practice22\\Program.cs",
               "RelativeDocumentMoniker": "Practice22\\Program.cs",
-              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\Practice22\\Practice22\\Program.cs",
-              "RelativeToolTip": "Practice22\\Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBkAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\Practice22\\Practice22\\Program.cs*",
+              "RelativeToolTip": "Practice22\\Program.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-09T16:54:04.588Z",
               "EditorCaption": ""

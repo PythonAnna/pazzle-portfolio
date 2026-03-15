@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using WebApi.Commands;
 using WebApi.Dtos;
 
 namespace WebApi.Controllers
@@ -7,10 +8,16 @@ namespace WebApi.Controllers
     [Route("api/[controller]")]
     public class UpdateController : ControllerBase
     {
+        private readonly TelegramUpdateProcessor _processor;
+        public UpdateController(TelegramUpdateProcessor processor)
+        {
+            _processor = processor;
+        }
+
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] TelegramUpdate update)
         {
-            Console.WriteLine(update?.Message?.Text);
+            _processor.Handle(update);
             return Ok();
         }
     }
