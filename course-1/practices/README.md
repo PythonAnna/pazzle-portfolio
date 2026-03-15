@@ -11,7 +11,7 @@
 - [Практика 15](./Practic15/Practic15)
 - [Практика 16](./Practice16/Practice16/Program.cs)
 - [Практика 17](./Practice17/Practice17/Program.cs)
-- [Практика 18](./Practic18/Practic18)
+- [Практика 18](./Practice18/Practice18)
 - [Практика 19](./Practice19/Practice19/Program.cs)
 - [Практика 21](./Practice21/Practice21)
 - [Практика 22](./Practice22/Practice22/Program.cs)
