@@ -90,33 +90,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 19,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Practice23",
-              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\Practice23\\Practice23\\Practice23.csproj",
-              "RelativeDocumentMoniker": "Practice23\\Practice23.csproj",
-              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\Practice23\\Practice23\\Practice23.csproj",
-              "RelativeToolTip": "Practice23\\Practice23.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-01T19:00:33.721Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "HomeworkCommand.cs",
-              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\Practice23\\Practice23\\Commands\\HomeworkCommand.cs",
-              "RelativeDocumentMoniker": "Practice23\\Commands\\HomeworkCommand.cs",
-              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\Practice23\\Practice23\\Commands\\HomeworkCommand.cs",
-              "RelativeToolTip": "Practice23\\Commands\\HomeworkCommand.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowC4AAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T19:26:48.983Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 15,
@@ -191,6 +166,43 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\Practice23\\Practice23\\Program.cs",
+              "RelativeDocumentMoniker": "Practice23\\Program.cs",
+              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\Practice23\\Practice23\\Program.cs",
+              "RelativeToolTip": "Practice23\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwA8AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T16:05:09.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeworkCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\Practice23\\Practice23\\Commands\\HomeworkCommand.cs",
+              "RelativeDocumentMoniker": "Practice23\\Commands\\HomeworkCommand.cs",
+              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\Practice23\\Practice23\\Commands\\HomeworkCommand.cs",
+              "RelativeToolTip": "Practice23\\Commands\\HomeworkCommand.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowC4AAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T19:26:48.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Practice23.csproj",
+              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\Practice23\\Practice23\\Practice23.csproj",
+              "RelativeDocumentMoniker": "Practice23\\Practice23.csproj",
+              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\Practice23\\Practice23\\Practice23.csproj",
+              "RelativeToolTip": "Practice23\\Practice23.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-01T19:00:33.721Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
               "Title": "WeekCommand.cs",
               "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\Practice23\\Practice23\\Commands\\WeekCommand.cs",
@@ -211,8 +223,7 @@
               "RelativeToolTip": "Practice23\\Repositories\\JsonScheduleRepository.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAgwBsAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-15T17:14:36.221Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-15T17:14:36.221Z"
             },
             {
               "$type": "Document",
@@ -284,8 +295,7 @@
               "RelativeToolTip": "Practice23\\Commands\\HelpCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-15T11:21:12.514Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-15T11:21:12.514Z"
             },
             {
               "$type": "Document",
@@ -297,8 +307,7 @@
               "RelativeToolTip": "Practice23\\Commands\\StartCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-15T11:13:58.713Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-15T11:13:58.713Z"
             },
             {
               "$type": "Document",
@@ -310,8 +319,7 @@
               "RelativeToolTip": "Practice23\\Commands\\CommandDispat\u0441her.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-12T16:48:17.118Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-12T16:48:17.118Z"
             },
             {
               "$type": "Document",
@@ -323,21 +331,7 @@
               "RelativeToolTip": "Practice23\\Commands\\ICommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-12T16:48:18.288Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\Practice23\\Practice23\\Program.cs",
-              "RelativeDocumentMoniker": "Practice23\\Program.cs",
-              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\Practice23\\Practice23\\Program.cs",
-              "RelativeToolTip": "Practice23\\Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA1wA8AAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-12T16:05:09.86Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-12T16:48:18.288Z"
             }
           ]
         }

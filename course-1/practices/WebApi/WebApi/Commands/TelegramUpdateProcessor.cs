@@ -16,7 +16,7 @@ namespace WebApi.Commands
             _commands = commands;
             _botClient = botClient;
         }
-        public void Handle(TelegramUpdate update)
+        public async Task HandleAsync(TelegramUpdate update)
         {
             if (update.Message == null)
                 return;
@@ -30,12 +30,12 @@ namespace WebApi.Commands
                 var command = _commands.FirstOrDefault(c => c.Trigger.Equals(cmd, StringComparison.OrdinalIgnoreCase));
                 if (command != null)
                 {
-                    command.ExecuteAsync(update, _botClient, chatId);
+                    await command.ExecuteAsync(update, _botClient, chatId);
                     return;
                 }
                 else
                 {
-                    _botClient.SendTextMessageAsync(chatId, "Неизвестная команда. Используйте /help");
+                    await _botClient.SendTextMessageAsync(chatId, "Неизвестная команда. Используйте /help");
                     return;
                 }
             }

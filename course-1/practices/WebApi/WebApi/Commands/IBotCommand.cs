@@ -6,6 +6,6 @@ namespace WebApi.Commands
     public interface IBotCommand
     {
         string Trigger { get; }
-        void ExecuteAsync(TelegramUpdate update, ITelegramBotClient bot, long chatId);
+        Task ExecuteAsync(TelegramUpdate update, ITelegramBotClient bot, long chatId);
     }
 }

@@ -17,7 +17,10 @@ namespace WebApi.Controllers
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] TelegramUpdate update)
         {
-            _processor.Handle(update);
+            if (!ModelState.IsValid)
+                return BadRequest();
+
+            _ = Task.Run(()=>_processor.HandleAsync(update));
             return Ok();
         }
     }
