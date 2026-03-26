@@ -1,5 +1,7 @@
 using Telegram.Bot;
 using WebApi.Commands;
+using WebApi.Repositories.Implementations;
+using WebApi.Repositories.Interfaces;
 
 namespace WebApi
 {
@@ -19,6 +21,7 @@ namespace WebApi
             builder.Services.AddSingleton<IBotCommand, StartCommand>();
             builder.Services.AddSingleton<IBotCommand, HelpCommand>();
             builder.Services.AddSingleton<TelegramUpdateProcessor>();
+            builder.Services.AddHttpClient<IChatApiClient, HttpChatApiClient>();
 
             var app = builder.Build();
 
