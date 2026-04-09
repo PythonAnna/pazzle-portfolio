@@ -1,6 +1,9 @@
-﻿using Telegram.Bot;
+﻿using Microsoft.AspNetCore.Identity;
+using Telegram.Bot;
 using WebApi.Commands;
 using WebApi.Dtos;
+using WebApi.Repositories.Interfaces;
+using WebApi.Repositories.Models;
 
 namespace WebApi.Commands
 {
@@ -8,14 +11,21 @@ namespace WebApi.Commands
     {
         private readonly IEnumerable<IBotCommand> _commands;
         private readonly ITelegramBotClient _botClient;
+        private readonly IChatApiClient _chatClient;
+        private readonly IChatModelRepository _chatModelRepository;
 
         public TelegramUpdateProcessor(
             IEnumerable<IBotCommand> commands,
-            ITelegramBotClient botClient)
+            ITelegramBotClient botClient,
+            IChatApiClient chatClient,
+            IChatModelRepository chatModelRepository)
         {
             _commands = commands;
             _botClient = botClient;
+            _chatClient = chatClient;
+            _chatModelRepository = chatModelRepository;
         }
+
         public async Task HandleAsync(TelegramUpdate update)
         {
             if (update.Message == null)
@@ -38,6 +48,20 @@ namespace WebApi.Commands
                     await _botClient.SendTextMessageAsync(chatId, "Неизвестная команда. Используйте /help");
                     return;
                 }
+            }
+
+            await _chatModelRepository.AddMessageAsync(chatId, new OpenApiResponse.Message { Role = "user", Content = text });
+            var history = await _chatModelRepository.GetHistoryAsync(chatId);
+            try
+            {
+                var result = await _chatClient.SendMessageAsync(text, history);
+                await _chatModelRepository.AddMessageAsync(chatId, new OpenApiResponse.Message { Role = "assistent", Content = result });
+                await _botClient.SendTextMessageAsync(chatId, result);
+            }
+            catch (Exception ex)
+            {
+                await _botClient.SendTextMessageAsync(chatId, "Ошибка при вызове Chat API: " + ex.Message);
+                return;
             }
         }
     }

@@ -3,8 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\webapi\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\webapi\\webapi\\settings\\chatapisettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|solutionrelative:webapi\\settings\\chatapisettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\webapi\\webapi\\commands\\telegramupdateprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|solutionrelative:webapi\\commands\\telegramupdateprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\webapi\\webapi\\commands\\startcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|solutionrelative:webapi\\commands\\startcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\webapi\\webapi\\commands\\ibotcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|solutionrelative:webapi\\commands\\ibotcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\webapi\\webapi\\commands\\helpcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|solutionrelative:webapi\\commands\\helpcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\webapi\\webapi\\controllers\\chattestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\chattestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\webapi\\webapi\\controllers\\updatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\updatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\webapi\\webapi\\dtos\\telegramupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|solutionrelative:webapi\\dtos\\telegramupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\webapi\\webapi\\dtos\\telegrammessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|solutionrelative:webapi\\dtos\\telegrammessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\webapi\\webapi\\repositories\\implementations\\chatmodelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|solutionrelative:webapi\\repositories\\implementations\\chatmodelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\webapi\\webapi\\repositories\\implementations\\httpchatapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,56 +55,28 @@
       "RelativeMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|solutionrelative:webapi\\repositories\\interfaces\\ichatapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\webapi\\webapi\\controllers\\chattestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\chattestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\webapi\\webapi\\repositories\\interfaces\\ichatmodelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|solutionrelative:webapi\\repositories\\interfaces\\ichatmodelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\webapi\\webapi\\repositories\\models\\openapirequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|solutionrelative:webapi\\repositories\\models\\openapirequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\webapi\\webapi\\repositories\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|solutionrelative:webapi\\repositories\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\webapi\\webapi\\repositories\\models\\openapiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|solutionrelative:webapi\\repositories\\models\\openapiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\webapi\\webapi\\controllers\\updatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\updatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\webapi\\webapi\\commands\\telegramupdateprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|solutionrelative:webapi\\commands\\telegramupdateprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\webapi\\webapi\\commands\\helpcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|solutionrelative:webapi\\commands\\helpcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\webapi\\webapi\\commands\\ibotcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|solutionrelative:webapi\\commands\\ibotcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\webapi\\webapi\\commands\\startcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|solutionrelative:webapi\\commands\\startcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\webapi\\webapi\\settings\\chatapisettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|solutionrelative:webapi\\settings\\chatapisettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\webapi\\webapi\\dtos\\telegrammessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|solutionrelative:webapi\\dtos\\telegrammessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\webapi\\webapi\\dtos\\telegramupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|solutionrelative:webapi\\dtos\\telegramupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\webapi\\webapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|solutionrelative:webapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\webapi\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\webapi\\webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -83,144 +95,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "HttpChatApiClient.cs",
-              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Repositories\\Implementations\\HttpChatApiClient.cs",
-              "RelativeDocumentMoniker": "WebApi\\Repositories\\Implementations\\HttpChatApiClient.cs",
-              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Repositories\\Implementations\\HttpChatApiClient.cs",
-              "RelativeToolTip": "WebApi\\Repositories\\Implementations\\HttpChatApiClient.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T16:39:13.712Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "WebApi\\Program.cs",
-              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Program.cs",
-              "RelativeToolTip": "WebApi\\Program.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwBcAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-02T16:33:02.065Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IChatApiClient.cs",
-              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Repositories\\Interfaces\\IChatApiClient.cs",
-              "RelativeDocumentMoniker": "WebApi\\Repositories\\Interfaces\\IChatApiClient.cs",
-              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Repositories\\Interfaces\\IChatApiClient.cs",
-              "RelativeToolTip": "WebApi\\Repositories\\Interfaces\\IChatApiClient.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T16:37:16.884Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ChatTestController.cs",
-              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Controllers\\ChatTestController.cs",
-              "RelativeDocumentMoniker": "WebApi\\Controllers\\ChatTestController.cs",
-              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Controllers\\ChatTestController.cs",
-              "RelativeToolTip": "WebApi\\Controllers\\ChatTestController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T17:05:11.974Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "OpenApiRequest.cs",
-              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Repositories\\Models\\OpenApiRequest.cs",
-              "RelativeDocumentMoniker": "WebApi\\Repositories\\Models\\OpenApiRequest.cs",
-              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Repositories\\Models\\OpenApiRequest.cs",
-              "RelativeToolTip": "WebApi\\Repositories\\Models\\OpenApiRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T16:45:22.313Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "OpenApiResponse.cs",
-              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Repositories\\Models\\OpenApiResponse.cs",
-              "RelativeDocumentMoniker": "WebApi\\Repositories\\Models\\OpenApiResponse.cs",
-              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Repositories\\Models\\OpenApiResponse.cs",
-              "RelativeToolTip": "WebApi\\Repositories\\Models\\OpenApiResponse.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T16:39:57.151Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UpdateController.cs",
-              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Controllers\\UpdateController.cs",
-              "RelativeDocumentMoniker": "WebApi\\Controllers\\UpdateController.cs",
-              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Controllers\\UpdateController.cs",
-              "RelativeToolTip": "WebApi\\Controllers\\UpdateController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-02T16:37:33.934Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TelegramUpdateProcessor.cs",
-              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Commands\\TelegramUpdateProcessor.cs",
-              "RelativeDocumentMoniker": "WebApi\\Commands\\TelegramUpdateProcessor.cs",
-              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Commands\\TelegramUpdateProcessor.cs",
-              "RelativeToolTip": "WebApi\\Commands\\TelegramUpdateProcessor.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T16:51:51.925Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "HelpCommand.cs",
-              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Commands\\HelpCommand.cs",
-              "RelativeDocumentMoniker": "WebApi\\Commands\\HelpCommand.cs",
-              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Commands\\HelpCommand.cs",
-              "RelativeToolTip": "WebApi\\Commands\\HelpCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T16:48:43.781Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IBotCommand.cs",
-              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Commands\\IBotCommand.cs",
-              "RelativeDocumentMoniker": "WebApi\\Commands\\IBotCommand.cs",
-              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Commands\\IBotCommand.cs",
-              "RelativeToolTip": "WebApi\\Commands\\IBotCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T16:37:06.222Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "StartCommand.cs",
-              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Commands\\StartCommand.cs",
-              "RelativeDocumentMoniker": "WebApi\\Commands\\StartCommand.cs",
-              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Commands\\StartCommand.cs",
-              "RelativeToolTip": "WebApi\\Commands\\StartCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T16:43:33.363Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "ChatApiSettings.cs",
               "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Settings\\ChatApiSettings.cs",
               "RelativeDocumentMoniker": "WebApi\\Settings\\ChatApiSettings.cs",
@@ -228,35 +102,233 @@
               "RelativeToolTip": "WebApi\\Settings\\ChatApiSettings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T16:55:56.724Z"
+              "WhenOpened": "2026-03-16T16:55:56.724Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "TelegramMessage.cs",
-              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Dtos\\TelegramMessage.cs",
-              "RelativeDocumentMoniker": "WebApi\\Dtos\\TelegramMessage.cs",
-              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Dtos\\TelegramMessage.cs",
-              "RelativeToolTip": "WebApi\\Dtos\\TelegramMessage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAXAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\appsettings.json*",
+              "RelativeToolTip": "WebApi\\appsettings.json*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-11T04:45:20.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TelegramUpdateProcessor.cs",
+              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Commands\\TelegramUpdateProcessor.cs",
+              "RelativeDocumentMoniker": "WebApi\\Commands\\TelegramUpdateProcessor.cs",
+              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Commands\\TelegramUpdateProcessor.cs*",
+              "RelativeToolTip": "WebApi\\Commands\\TelegramUpdateProcessor.cs*",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowDoAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T04:45:17.509Z"
+              "WhenOpened": "2026-03-12T16:51:51.925Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 6,
+              "Title": "ChatTestController.cs",
+              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Controllers\\ChatTestController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\ChatTestController.cs",
+              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Controllers\\ChatTestController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\ChatTestController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T17:05:11.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UpdateController.cs",
+              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Controllers\\UpdateController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\UpdateController.cs",
+              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Controllers\\UpdateController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\UpdateController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T16:37:33.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StartCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Commands\\StartCommand.cs",
+              "RelativeDocumentMoniker": "WebApi\\Commands\\StartCommand.cs",
+              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Commands\\StartCommand.cs",
+              "RelativeToolTip": "WebApi\\Commands\\StartCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T16:43:33.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IBotCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Commands\\IBotCommand.cs",
+              "RelativeDocumentMoniker": "WebApi\\Commands\\IBotCommand.cs",
+              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Commands\\IBotCommand.cs",
+              "RelativeToolTip": "WebApi\\Commands\\IBotCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T16:37:06.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HelpCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Commands\\HelpCommand.cs",
+              "RelativeDocumentMoniker": "WebApi\\Commands\\HelpCommand.cs",
+              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Commands\\HelpCommand.cs",
+              "RelativeToolTip": "WebApi\\Commands\\HelpCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T16:48:43.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "TelegramUpdate.cs",
               "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Dtos\\TelegramUpdate.cs",
               "RelativeDocumentMoniker": "WebApi\\Dtos\\TelegramUpdate.cs",
               "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Dtos\\TelegramUpdate.cs",
               "RelativeToolTip": "WebApi\\Dtos\\TelegramUpdate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T04:46:13.6Z"
+              "WhenOpened": "2026-03-11T04:46:13.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TelegramMessage.cs",
+              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Dtos\\TelegramMessage.cs",
+              "RelativeDocumentMoniker": "WebApi\\Dtos\\TelegramMessage.cs",
+              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Dtos\\TelegramMessage.cs",
+              "RelativeToolTip": "WebApi\\Dtos\\TelegramMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T04:45:17.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ChatModelRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Repositories\\Implementations\\ChatModelRepository.cs",
+              "RelativeDocumentMoniker": "WebApi\\Repositories\\Implementations\\ChatModelRepository.cs",
+              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Repositories\\Implementations\\ChatModelRepository.cs",
+              "RelativeToolTip": "WebApi\\Repositories\\Implementations\\ChatModelRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T16:45:33.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HttpChatApiClient.cs",
+              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Repositories\\Implementations\\HttpChatApiClient.cs",
+              "RelativeDocumentMoniker": "WebApi\\Repositories\\Implementations\\HttpChatApiClient.cs",
+              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Repositories\\Implementations\\HttpChatApiClient.cs",
+              "RelativeToolTip": "WebApi\\Repositories\\Implementations\\HttpChatApiClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T16:39:13.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IChatApiClient.cs",
+              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Repositories\\Interfaces\\IChatApiClient.cs",
+              "RelativeDocumentMoniker": "WebApi\\Repositories\\Interfaces\\IChatApiClient.cs",
+              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Repositories\\Interfaces\\IChatApiClient.cs",
+              "RelativeToolTip": "WebApi\\Repositories\\Interfaces\\IChatApiClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T16:37:16.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IChatModelRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Repositories\\Interfaces\\IChatModelRepository.cs",
+              "RelativeDocumentMoniker": "WebApi\\Repositories\\Interfaces\\IChatModelRepository.cs",
+              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Repositories\\Interfaces\\IChatModelRepository.cs*",
+              "RelativeToolTip": "WebApi\\Repositories\\Interfaces\\IChatModelRepository.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-06T16:40:41.882Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
+              "Title": "OpenApiRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Repositories\\Models\\OpenApiRequest.cs",
+              "RelativeDocumentMoniker": "WebApi\\Repositories\\Models\\OpenApiRequest.cs",
+              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Repositories\\Models\\OpenApiRequest.cs",
+              "RelativeToolTip": "WebApi\\Repositories\\Models\\OpenApiRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T16:45:22.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Message.cs",
+              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Repositories\\Models\\Message.cs",
+              "RelativeDocumentMoniker": "WebApi\\Repositories\\Models\\Message.cs",
+              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Repositories\\Models\\Message.cs",
+              "RelativeToolTip": "WebApi\\Repositories\\Models\\Message.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T16:05:22.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OpenApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Repositories\\Models\\OpenApiResponse.cs",
+              "RelativeDocumentMoniker": "WebApi\\Repositories\\Models\\OpenApiResponse.cs",
+              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Repositories\\Models\\OpenApiResponse.cs*",
+              "RelativeToolTip": "WebApi\\Repositories\\Models\\OpenApiResponse.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T16:39:57.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Program.cs",
+              "RelativeToolTip": "WebApi\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBgAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T16:33:02.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "WebApi\\WeatherForecast.cs",
@@ -268,19 +340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\appsettings.json",
-              "RelativeDocumentMoniker": "WebApi\\appsettings.json",
-              "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\appsettings.json",
-              "RelativeToolTip": "WebApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-11T04:45:20.215Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "WebApi\\Properties\\launchSettings.json",

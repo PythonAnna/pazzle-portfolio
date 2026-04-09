@@ -2,6 +2,7 @@ using Telegram.Bot;
 using WebApi.Commands;
 using WebApi.Repositories.Implementations;
 using WebApi.Repositories.Interfaces;
+using WebApi.Settings;
 
 namespace WebApi
 {
@@ -16,12 +17,22 @@ namespace WebApi
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
-            var telegramToken = "7942247996:AAHPB9PD-u-yDbHyKmyhhu4FNpHqCkEzFyI";
-            builder.Services.AddSingleton<ITelegramBotClient>(sp => new TelegramBotClient(telegramToken));
+            builder.Services.Configure<ChatApiSettings>(
+                builder.Configuration.GetSection("ChatApi"));
+
+            builder.Services.Configure<TelegramSettings>(
+                builder.Configuration.GetSection("Telegram"));
+
+            builder.Services.AddSingleton<ITelegramBotClient>(sp =>
+            {
+                var token = builder.Configuration["Telegram:BotToken"];
+                return new TelegramBotClient(token!);
+            });
             builder.Services.AddSingleton<IBotCommand, StartCommand>();
             builder.Services.AddSingleton<IBotCommand, HelpCommand>();
             builder.Services.AddSingleton<TelegramUpdateProcessor>();
             builder.Services.AddHttpClient<IChatApiClient, HttpChatApiClient>();
+            builder.Services.AddSingleton<IChatModelRepository, ChatModelRepository>();
 
             var app = builder.Build();
 

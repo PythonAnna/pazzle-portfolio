@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using WebApi.Repositories.Interfaces;
+using WebApi.Repositories.Models;
 
 namespace WebApi.Controllers
 {
@@ -10,8 +11,8 @@ namespace WebApi.Controllers
         [HttpPost("test")]
         public async Task<IActionResult> Test([FromBody] ChatTestRequest request)
         {
-            var answer = await
-                chatApiClient.SendMessageAsync(request.Message);
+            var history = new List<OpenApiResponse.Message>();
+            var answer = await chatApiClient.SendMessageAsync(request.Message, history);
             return Ok(new { answer });
         }
     }
