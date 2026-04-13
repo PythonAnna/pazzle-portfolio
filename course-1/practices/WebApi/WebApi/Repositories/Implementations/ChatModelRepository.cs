@@ -1,4 +1,6 @@
-﻿using System.Collections.Concurrent;
+﻿using Microsoft.AspNetCore.Identity;
+using System.Collections.Concurrent;
+using WebApi.Dtos;
 using WebApi.Repositories.Interfaces;
 using WebApi.Repositories.Models;
 
@@ -7,6 +9,11 @@ namespace WebApi.Repositories.Implementations
     public class ChatModelRepository: IChatModelRepository
     {
         private readonly ConcurrentDictionary<long, List<OpenApiResponse.Message>> _store = new();
+        private readonly ILogger<ChatModelRepository> _logger;
+        public ChatModelRepository(ILogger<ChatModelRepository> logger)
+        {
+            _logger = logger;
+        }
 
         public Task AddMessageAsync(long chatId, OpenApiResponse.Message message)
         {
@@ -20,8 +27,49 @@ namespace WebApi.Repositories.Implementations
 
         public Task<List<OpenApiResponse.Message>> GetHistoryAsync(long chatId)
         {
+            _logger.LogInformation("Загрузка истории для чата {ChatId}", chatId);
             _store.TryGetValue(chatId, out var list);
             return Task.FromResult(list == null ? new List<OpenApiResponse.Message>() : new List<OpenApiResponse.Message>(list));
+        }
+        public Task<ChatStats> GetStatsAsync(long chatId)
+        {
+            _store.TryGetValue(chatId, out var list);
+            var stats = new ChatStats();
+            if(list!=null)
+            {
+                foreach(var msg in list)
+                {
+                    if(msg.Role == "user")
+                    {
+                        stats.UserMessages++;
+                        stats.EstimatedUserTokens += (int)Math.Ceiling(msg.Content.Length / 3.0);
+                    }
+                }
+            }
+            return Task.FromResult(stats);
+        }
+        public Task ClearHistoryAsync(long chatId)
+        {
+            _logger.LogInformation("Очистка истории для чата {ChatId}", chatId);
+            _store.TryRemove(chatId, out _);
+            return Task.CompletedTask;
+        }
+        public Task<bool> RemoveLastMessageAsync(long chatId)
+        {
+            _logger.LogInformation("Удаление последнего сообщения для чата {ChatId}, chatId");
+            _store.TryGetValue(chatId, out var list);
+            if (list != null && list.Count > 0)
+            {
+                lock (list)
+                {
+                    if (list.Count > 0)
+                    {
+                        list.RemoveAt(list.Count - 1);
+                        return Task.FromResult(true);
+                    }
+                }
+            }
+            return Task.FromResult(false);
         }
     }
 }

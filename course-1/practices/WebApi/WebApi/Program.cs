@@ -33,6 +33,8 @@ namespace WebApi
             builder.Services.AddSingleton<TelegramUpdateProcessor>();
             builder.Services.AddHttpClient<IChatApiClient, HttpChatApiClient>();
             builder.Services.AddSingleton<IChatModelRepository, ChatModelRepository>();
+            builder.Services.AddSingleton<IBotCommand, StatsCommand>();
+            builder.Services.AddSingleton<IBotCommand, ClearCommand>();
 
             var app = builder.Build();
 
