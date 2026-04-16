@@ -35,6 +35,8 @@ namespace WebApi
             builder.Services.AddSingleton<IChatModelRepository, ChatModelRepository>();
             builder.Services.AddSingleton<IBotCommand, StatsCommand>();
             builder.Services.AddSingleton<IBotCommand, ClearCommand>();
+            builder.Services.AddSingleton<IBotCommand, UndoCommand>();
+            builder.Services.AddSingleton<IBotCommand, SummarizeCommand>();
 
             var app = builder.Build();
 
