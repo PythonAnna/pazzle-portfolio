@@ -13,17 +13,20 @@ namespace WebApi.Commands
         private readonly ITelegramBotClient _botClient;
         private readonly IChatApiClient _chatClient;
         private readonly IChatModelRepository _chatModelRepository;
+        private readonly ILogger<TelegramUpdateProcessor> _logger;
 
         public TelegramUpdateProcessor(
             IEnumerable<IBotCommand> commands,
             ITelegramBotClient botClient,
             IChatApiClient chatClient,
-            IChatModelRepository chatModelRepository)
+            IChatModelRepository chatModelRepository,
+            ILogger<TelegramUpdateProcessor> logger)
         {
             _commands = commands;
             _botClient = botClient;
             _chatClient = chatClient;
             _chatModelRepository = chatModelRepository;
+            _logger = logger;
         }
 
         public async Task HandleAsync(TelegramUpdate update)
@@ -33,6 +36,7 @@ namespace WebApi.Commands
 
             var chatId = update.Message.Chat.Id;
             var text = update.Message.Text.Trim();
+            _logger.LogInformation("Получено сообщение от чата {ChatId}: {Text}", chatId, text);
 
             if (text.StartsWith("/"))
             {
@@ -40,11 +44,13 @@ namespace WebApi.Commands
                 var command = _commands.FirstOrDefault(c => c.Trigger.Equals(cmd, StringComparison.OrdinalIgnoreCase));
                 if (command != null)
                 {
+                    _logger.LogInformation("Выполняется команда {Command}", cmd);
                     await command.ExecuteAsync(update, _botClient, chatId);
                     return;
                 }
                 else
                 {
+                    _logger.LogWarning("Неизвестная команда: {Command}", cmd);
                     await _botClient.SendTextMessageAsync(chatId, "Неизвестная команда. Используйте /help");
                     return;
                 }
@@ -54,14 +60,17 @@ namespace WebApi.Commands
             var history = await _chatModelRepository.GetHistoryAsync(chatId);
             try
             {
+                _logger.LogInformation("Отправка запроса в Chat API");
                 var result = await _chatClient.SendMessageAsync(text, history);
                 await _chatModelRepository.AddMessageAsync(chatId, new OpenApiResponse.Message { Role = "assistent", Content = result });
+
+                _logger.LogInformation("Ответ отправлен пользлвателю");
                 await _botClient.SendTextMessageAsync(chatId, result);
             }
             catch (Exception ex)
             {
+                _logger.LogError(ex, "Ошибка при вызове Chat API");
                 await _botClient.SendTextMessageAsync(chatId, "Ошибка при вызове Chat API: " + ex.Message);
-                return;
             }
         }
     }

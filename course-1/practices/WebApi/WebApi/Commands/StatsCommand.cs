@@ -1,5 +1,6 @@
 ﻿using System.Runtime.CompilerServices;
 using Telegram.Bot;
+using WebApi.Dtos;
 using WebApi.Repositories.Interfaces;
 
 namespace WebApi.Commands
@@ -12,7 +13,7 @@ namespace WebApi.Commands
             _chatModelRepository = chatModelRepository;
         }
         public string Trigger => "/stats";
-        public async Task ExecuteAsync(TelegramUpdateProcessor update, ITelegramBotClient bot, long chatId)
+        public async Task ExecuteAsync(TelegramUpdate update, ITelegramBotClient bot, long chatId)
         {
             var stats = await _chatModelRepository.GetStatsAsync(chatId);
             var message = $"Статистика чат\n\n"+

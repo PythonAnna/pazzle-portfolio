@@ -1,3 +1,4 @@
+using Serilog;
 using Telegram.Bot;
 using WebApi.Commands;
 using WebApi.Repositories.Implementations;
@@ -10,8 +11,15 @@ namespace WebApi
     {
         public static void Main(string[] args)
         {
+            Log.Logger = new LoggerConfiguration()
+                .WriteTo.Console()
+                .WriteTo.File("logs/app-.log", rollingInterval: RollingInterval.Day)
+                .CreateBootstrapLogger();
+
             var builder = WebApplication.CreateBuilder(args);
-            
+
+            builder.Host.UseSerilog();
+
             builder.Services.AddControllers().AddNewtonsoftJson();
 
             builder.Services.AddEndpointsApiExplorer();
@@ -28,6 +36,7 @@ namespace WebApi
                 var token = builder.Configuration["Telegram:BotToken"];
                 return new TelegramBotClient(token!);
             });
+            builder.Services.AddLogging();
             builder.Services.AddSingleton<IBotCommand, StartCommand>();
             builder.Services.AddSingleton<IBotCommand, HelpCommand>();
             builder.Services.AddSingleton<TelegramUpdateProcessor>();

@@ -17,6 +17,7 @@ namespace WebApi.Repositories.Implementations
 
         public Task AddMessageAsync(long chatId, OpenApiResponse.Message message)
         {
+            _logger.LogInformation("Сохранение сообщения от чата {ChatId}: {Role}", chatId, message.Role);
             var list = _store.GetOrAdd(chatId, _ => new List<OpenApiResponse.Message>());
             lock(list)
             {
