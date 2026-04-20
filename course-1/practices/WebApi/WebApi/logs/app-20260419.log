@@ -1,0 +1,70 @@
+2026-04-19 18:53:31.195 +03:00 [INF] Now listening on: http://localhost:5000
+2026-04-19 18:53:31.659 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-19 18:53:31.666 +03:00 [INF] Hosting environment: Development
+2026-04-19 18:53:31.670 +03:00 [INF] Content root path: C:\Users\Anna\pazzle-portfolio\course-1\practices\WebApi\WebApi
+2026-04-19 18:53:34.806 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger - null null
+2026-04-19 18:53:35.235 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger - 301 0 null 434.1425ms
+2026-04-19 18:53:35.268 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - null null
+2026-04-19 18:53:35.575 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - 200 null text/html;charset=utf-8 307.7622ms
+2026-04-19 18:53:35.655 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js - null null
+2026-04-19 18:53:35.660 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js - null null
+2026-04-19 18:53:35.670 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-19 18:53:35.670 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css - null null
+2026-04-19 18:53:35.685 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/_vs/browserLink - null null
+2026-04-19 18:53:35.690 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/_framework/aspnetcore-browser-refresh.js - 200 16497 application/javascript; charset=utf-8 20.3406ms
+2026-04-19 18:53:35.834 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2026-04-19 18:53:35.843 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2026-04-19 18:53:35.849 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 189.1113ms
+2026-04-19 18:53:35.849 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css - 200 152034 text/css 178.7841ms
+2026-04-19 18:53:35.944 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2026-04-19 18:53:36.085 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/_vs/browserLink - 200 null text/javascript; charset=UTF-8 399.8998ms
+2026-04-19 18:53:36.090 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 435.5635ms
+2026-04-19 18:53:36.555 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - null null
+2026-04-19 18:53:36.952 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 396.839ms
+2026-04-19 18:54:31.619 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5000/api/chat/test - application/json-patch+json 25
+2026-04-19 18:54:31.641 +03:00 [WRN] Failed to determine the https port for redirect.
+2026-04-19 18:54:31.658 +03:00 [INF] Executing endpoint 'WebApi.Controllers.ChatTestController.Test (WebApi)'
+2026-04-19 18:54:31.785 +03:00 [INF] Route matched with {action = "Test", controller = "ChatTest"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Test(WebApi.Controllers.ChatTestRequest) on controller WebApi.Controllers.ChatTestController (WebApi).
+2026-04-19 18:54:32.170 +03:00 [INF] Отправка запроса к модели openrouter/hunter-alpha
+2026-04-19 18:54:32.231 +03:00 [INF] Start processing HTTP request POST https://openrouter.ai/api/v1/chat/completions&quot
+2026-04-19 18:54:32.261 +03:00 [INF] Sending HTTP request POST https://openrouter.ai/api/v1/chat/completions&quot
+2026-04-19 18:54:32.642 +03:00 [INF] Received HTTP response headers after 361.704ms - 404
+2026-04-19 18:54:32.649 +03:00 [INF] End processing HTTP request after 422.8024ms - 404
+2026-04-19 18:54:32.713 +03:00 [INF] Executed action WebApi.Controllers.ChatTestController.Test (WebApi) in 918.4933ms
+2026-04-19 18:54:32.718 +03:00 [INF] Executed endpoint 'WebApi.Controllers.ChatTestController.Test (WebApi)'
+2026-04-19 18:54:32.739 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at WebApi.Repositories.Implementations.HttpChatApiClient.SendMessageAsync(String userMessage, IEnumerable`1 history) in C:\Users\Anna\pazzle-portfolio\course-1\practices\WebApi\WebApi\Repositories\Implementations\HttpChatApiClient.cs:line 38
+   at WebApi.Controllers.ChatTestController.Test(ChatTestRequest request) in C:\Users\Anna\pazzle-portfolio\course-1\practices\WebApi\WebApi\Controllers\ChatTestController.cs:line 15
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-04-19 18:54:32.959 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5000/api/chat/test - 500 null text/plain; charset=utf-8 1340.5177ms
+2026-04-19 18:57:23.181 +03:00 [INF] Now listening on: http://localhost:5000
+2026-04-19 18:57:23.430 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-19 18:57:23.433 +03:00 [INF] Hosting environment: Development
+2026-04-19 18:57:23.436 +03:00 [INF] Content root path: C:\Users\Anna\pazzle-portfolio\course-1\practices\WebApi\WebApi
+2026-04-19 18:57:23.525 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - null null
+2026-04-19 18:57:23.863 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - 200 null text/html;charset=utf-8 338.223ms
+2026-04-19 18:57:23.958 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/_vs/browserLink - null null
+2026-04-19 18:57:23.958 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-19 18:57:24.022 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/_framework/aspnetcore-browser-refresh.js - 200 16497 application/javascript; charset=utf-8 63.6308ms
+2026-04-19 18:57:24.096 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/_vs/browserLink - 200 null text/javascript; charset=UTF-8 139.3457ms
+2026-04-19 18:57:24.478 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - null null
+2026-04-19 18:57:24.520 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/favicon-32x32.png - null null
+2026-04-19 18:57:24.549 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2026-04-19 18:57:24.568 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/favicon-32x32.png - 200 628 image/png 47.4573ms
+2026-04-19 18:57:24.665 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 186.442ms

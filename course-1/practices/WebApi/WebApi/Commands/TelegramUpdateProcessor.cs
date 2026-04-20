@@ -62,7 +62,7 @@ namespace WebApi.Commands
             {
                 _logger.LogInformation("Отправка запроса в Chat API");
                 var result = await _chatClient.SendMessageAsync(text, history);
-                await _chatModelRepository.AddMessageAsync(chatId, new OpenApiResponse.Message { Role = "assistent", Content = result });
+                await _chatModelRepository.AddMessageAsync(chatId, new OpenApiResponse.Message { Role = "assistant", Content = result });
 
                 _logger.LogInformation("Ответ отправлен пользлвателю");
                 await _botClient.SendTextMessageAsync(chatId, result);

@@ -57,7 +57,7 @@ namespace WebApi.Repositories.Implementations
         }
         public Task<bool> RemoveLastMessageAsync(long chatId)
         {
-            _logger.LogInformation("Удаление последнего сообщения для чата {ChatId}, chatId");
+            _logger.LogInformation("Удаление последнего сообщения для чата {ChatId}", chatId);
             _store.TryGetValue(chatId, out var list);
             if (list != null && list.Count > 0)
             {

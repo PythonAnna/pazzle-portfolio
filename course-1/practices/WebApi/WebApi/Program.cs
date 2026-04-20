@@ -39,13 +39,16 @@ namespace WebApi
             builder.Services.AddLogging();
             builder.Services.AddSingleton<IBotCommand, StartCommand>();
             builder.Services.AddSingleton<IBotCommand, HelpCommand>();
-            builder.Services.AddSingleton<TelegramUpdateProcessor>();
-            builder.Services.AddHttpClient<IChatApiClient, HttpChatApiClient>();
-            builder.Services.AddSingleton<IChatModelRepository, ChatModelRepository>();
             builder.Services.AddSingleton<IBotCommand, StatsCommand>();
             builder.Services.AddSingleton<IBotCommand, ClearCommand>();
             builder.Services.AddSingleton<IBotCommand, UndoCommand>();
             builder.Services.AddSingleton<IBotCommand, SummarizeCommand>();
+            builder.Services.AddSingleton<IBotCommand, JokeCommand>();
+            builder.Services.AddSingleton<IBotCommand, QuoteCommand>();
+            builder.Services.AddSingleton<TelegramUpdateProcessor>();
+            builder.Services.AddHttpClient<IChatApiClient, HttpChatApiClient>();
+            builder.Services.AddSingleton<IChatModelRepository, ChatModelRepository>();
+
 
             var app = builder.Build();
 
