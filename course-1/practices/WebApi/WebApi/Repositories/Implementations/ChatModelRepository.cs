@@ -45,6 +45,11 @@ namespace WebApi.Repositories.Implementations
                         stats.UserMessages++;
                         stats.EstimatedUserTokens += (int)Math.Ceiling(msg.Content.Length / 3.0);
                     }
+                    else if (msg.Role == "assistant")
+                    {
+                        stats.AssistantMessages++;
+                        stats.EstimatedAssistantTokens += (int)Math.Ceiling(msg.Content.Length / 3.0);
+                    }
                 }
             }
             return Task.FromResult(stats);

@@ -20,7 +20,9 @@ namespace WebApi.Commands
                 "/stats -- статистика чата (сообщения, токены)\n" +
                 "/clear -- очистить историю переписки\n" +
                 "/summarize -- краткий пересказ диалога\n" +
-                "/undo -- удалить последнее сообщение\n";
+                "/undo -- удалить последнее сообщение\n"+
+                "/joke -- рассказать шутку\n" +
+                "/quote -- отправить цитату\n";
             await bot.SendTextMessageAsync(chatId, message);
         }
     }
