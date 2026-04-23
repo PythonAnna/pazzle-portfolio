@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\webapi\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\webapi\\webapi\\settings\\chatapisettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|solutionrelative:webapi\\settings\\chatapisettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\webapi\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9DE3A5D2-52C9-44E3-AA9C-89D5121F9089}|WebApi\\WebApi.csproj|c:\\users\\anna\\pazzle-portfolio\\course-1\\practices\\webapi\\webapi\\settings\\telegramsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -118,11 +118,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "HttpChatApiClient.cs",
               "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Repositories\\Implementations\\HttpChatApiClient.cs",
               "RelativeDocumentMoniker": "WebApi\\Repositories\\Implementations\\HttpChatApiClient.cs",
@@ -130,12 +130,11 @@
               "RelativeToolTip": "WebApi\\Repositories\\Implementations\\HttpChatApiClient.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T16:39:13.712Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-26T16:39:13.712Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ChatApiSettings.cs",
               "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Settings\\ChatApiSettings.cs",
               "RelativeDocumentMoniker": "WebApi\\Settings\\ChatApiSettings.cs",
@@ -143,31 +142,30 @@
               "RelativeToolTip": "WebApi\\Settings\\ChatApiSettings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T16:55:56.724Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-16T16:55:56.724Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\appsettings.json",
               "RelativeDocumentMoniker": "WebApi\\appsettings.json",
               "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\appsettings.json",
               "RelativeToolTip": "WebApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-03-11T04:45:20.215Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Program.cs",
               "RelativeDocumentMoniker": "WebApi\\Program.cs",
               "ToolTip": "C:\\Users\\Anna\\pazzle-portfolio\\course-1\\practices\\WebApi\\WebApi\\Program.cs",
               "RelativeToolTip": "WebApi\\Program.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-02T16:33:02.065Z",
               "EditorCaption": ""
@@ -182,8 +180,7 @@
               "RelativeToolTip": "WebApi\\Settings\\TelegramSettings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T16:30:38.208Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-09T16:30:38.208Z"
             },
             {
               "$type": "Document",
@@ -195,8 +192,7 @@
               "RelativeToolTip": "WebApi\\Repositories\\Interfaces\\IChatApiClient.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T16:37:16.884Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-26T16:37:16.884Z"
             },
             {
               "$type": "Document",
@@ -208,8 +204,7 @@
               "RelativeToolTip": "WebApi\\Repositories\\Implementations\\ChatModelRepository.cs",
               "ViewState": "AgIAADgAAAAAAAAAAAAIwDMAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T16:45:33.841Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-06T16:45:33.841Z"
             },
             {
               "$type": "Document",
@@ -221,8 +216,7 @@
               "RelativeToolTip": "WebApi\\Commands\\StatsCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T16:28:58.316Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-13T16:28:58.316Z"
             },
             {
               "$type": "Document",
@@ -234,8 +228,7 @@
               "RelativeToolTip": "WebApi\\Dtos\\ChatStats.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T16:08:51.375Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-13T16:08:51.375Z"
             },
             {
               "$type": "Document",
@@ -247,8 +240,7 @@
               "RelativeToolTip": "WebApi\\Repositories\\Interfaces\\IChatModelRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-06T16:40:41.882Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-06T16:40:41.882Z"
             },
             {
               "$type": "Document",
@@ -260,8 +252,7 @@
               "RelativeToolTip": "WebApi\\Repositories\\Models\\OpenApiResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T16:39:57.151Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-16T16:39:57.151Z"
             },
             {
               "$type": "Document",
@@ -273,8 +264,7 @@
               "RelativeToolTip": "WebApi\\Commands\\HelpCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T16:48:43.781Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-12T16:48:43.781Z"
             },
             {
               "$type": "Document",
@@ -286,8 +276,7 @@
               "RelativeToolTip": "WebApi\\WeatherForecast.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-02T16:33:04.171Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-02T16:33:04.171Z"
             },
             {
               "$type": "Document",
@@ -299,8 +288,7 @@
               "RelativeToolTip": "WebApi\\Repositories\\Models\\OpenApiRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T16:45:22.313Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-16T16:45:22.313Z"
             },
             {
               "$type": "Document",
@@ -312,8 +300,7 @@
               "RelativeToolTip": "WebApi\\Dtos\\TelegramUpdate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T04:46:13.6Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-11T04:46:13.6Z"
             },
             {
               "$type": "Document",
@@ -325,8 +312,7 @@
               "RelativeToolTip": "WebApi\\Dtos\\TelegramMessage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T04:45:17.509Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-11T04:45:17.509Z"
             },
             {
               "$type": "Document",
@@ -338,8 +324,7 @@
               "RelativeToolTip": "WebApi\\Controllers\\UpdateController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-02T16:37:33.934Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-02T16:37:33.934Z"
             },
             {
               "$type": "Document",
@@ -351,8 +336,7 @@
               "RelativeToolTip": "WebApi\\Controllers\\ChatTestController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-26T17:05:11.974Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-26T17:05:11.974Z"
             },
             {
               "$type": "Document",
@@ -364,8 +348,7 @@
               "RelativeToolTip": "WebApi\\Commands\\UndoCommand.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAqwCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T15:10:09.826Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-16T15:10:09.826Z"
             },
             {
               "$type": "Document",
@@ -377,8 +360,7 @@
               "RelativeToolTip": "WebApi\\Commands\\TelegramUpdateProcessor.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAQwEwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T16:51:51.925Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-12T16:51:51.925Z"
             },
             {
               "$type": "Document",
@@ -390,8 +372,7 @@
               "RelativeToolTip": "WebApi\\Commands\\SummarizeCommand.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAQwEMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T15:23:32.04Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-16T15:23:32.04Z"
             },
             {
               "$type": "Document",
@@ -403,8 +384,7 @@
               "RelativeToolTip": "WebApi\\Commands\\StartCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T16:43:33.363Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-12T16:43:33.363Z"
             },
             {
               "$type": "Document",
@@ -416,8 +396,7 @@
               "RelativeToolTip": "WebApi\\Commands\\QuoteCommand.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAQwDkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T16:21:42.35Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-20T16:21:42.35Z"
             },
             {
               "$type": "Document",
@@ -429,8 +408,7 @@
               "RelativeToolTip": "WebApi\\Commands\\JokeCommand.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAQwDkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T16:21:21.438Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-20T16:21:21.438Z"
             },
             {
               "$type": "Document",
@@ -442,8 +420,7 @@
               "RelativeToolTip": "WebApi\\Commands\\IBotCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T16:37:06.222Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-12T16:37:06.222Z"
             },
             {
               "$type": "Document",
@@ -455,8 +432,7 @@
               "RelativeToolTip": "WebApi\\Commands\\ClearCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T16:44:50.058Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-13T16:44:50.058Z"
             },
             {
               "$type": "Document",
